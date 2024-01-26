@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="index.php" method="POST"  enctype="multipart/form-data">
+
+            <!--Username tag-->
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" placeholder="Spongebob" minlength="6" maxLength="15" required><br>
+
+            <!--Password tag-->
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxLength="15" required><br>
+
+            <!--Email tag-->
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="Ssquarepants@gmail.com"><br>
+
+            <!--Telephone number tag-->
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <!--Date-->
+            <label for="bday">Birthdate:</label>
+            <input type="date" id="bday"><br>
+            
+            <!--Quantity-->
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+            <!--Title tag-->
+            <label for="title">Title:</label>
+
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+
+            <label for="Mrs">Mrs.</label>
+            <input type="radio" id="Mrs." value="Mrs." name="title">
+
+            <label for="PhD">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+            <!--Select tag (payment)-->
+            <label for="payment">payment:</label>
+            <select id="payment">
+                <option value="visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Giftcard">Giftcard</option>
+            </select><br>
+
+            <!--Subscribe tag-->
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <!--Comment tag-->
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+            <!--File selection tag-->
+            <label for="file">file</label>
+            <input type="file" id="file" accept="iamge/png, image/jpeg"><br>s
+
+
+            <!--buttonsskip-->
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>

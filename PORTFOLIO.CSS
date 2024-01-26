@@ -1,0 +1,51 @@
+
+#name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    background-color:dimgrey
+}
+header{
+    background-color: antiquewhite;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -5px;
+}
+footer{
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: -20px;
+}
+
+#intro{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.even{
+
+}
+
+#one{
+    color: red;
+
+}
+
+#two{
+    color: orange;
+}
+
+#three{
+    color: green;
+}
+
+#four{
+    color: yellow;
+}
+
+#five{
+    color:violet ;
+}
+
+#six{
+    color: blue;
+}

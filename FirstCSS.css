@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:white
+}
+
+body{
+    background-color: rgb(123, 144, 179);
+}
+
+.odd{
+    color: blue;
+}
+
+.even{
+    color: red;
+}
+
+#p1{
+    color: rgb(211, 245, 147);
+}
+
+#p2{
+    color: #0909ff;
+}
+
+#p3{
+    color: hsl(300, 76%, 72%);
+}
+
+#p4{
+    color: hwb(39 24% 15%);
+}
